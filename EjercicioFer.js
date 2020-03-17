@@ -10,50 +10,9 @@ var num3 = parseInt(prompt("Dime el tercer número"));
 //menor(num1, num2);
 //SacalMenor(num1, num2, num3);
 
-
-
-/*
-function menor(a, b) {
-if (a < b) {
-    alert("El menor es" + a);
-} else if (b < a) {
-    alert("El menor es " + b);
-} else {
-    alert("LOS NÚMEROS SON IGUALES, PARDAL");
-}
-}
-*/
-
-
-/*
-function SacalMenor(array) {
-var array = [1, 2, 3];
-if (a < b && a < c) {
-    alert("El número 1 es el menor");
-} else if (b < a && b < c) {
-    alert("El número 2 es el menor");
-} else if (c < a && c < b) {
-    alert("El número 3 es el menor");
-} else {
-    alert("LOS NÚMEROS SON IGUALES, PARDAL");
-}
-}
-*/
-
-/*
-function SacalMenor(matriz) {
-    alert(matriz);
-    }
-*/
-
-
 var array = [1, 2, 3];
 
 xTamaño(array);
-
-
-
-//5 haz una fucion que dado un array de x tamaño imprime ese array y el indice de cada elemento del array **
 
 function xTamaño(matriz) {
     if ( matriz.length == 3) {
@@ -63,18 +22,6 @@ function xTamaño(matriz) {
     })
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 //GetMinor(num1, num2);
 //Get3Minor(num1, num2, num3);
@@ -118,4 +65,39 @@ function GetIndexMinor(a, b, c) {
     }
 }
 */
+
+/*
+function menor(a, b) {
+if (a < b) {
+    alert("El menor es" + a);
+} else if (b < a) {
+    alert("El menor es " + b);
+} else {
+    alert("LOS NÚMEROS SON IGUALES, PARDAL");
+}
+}
+*/
+
+
+/*
+function SacalMenor(array) {
+var array = [1, 2, 3];
+if (a < b && a < c) {
+    alert("El número 1 es el menor");
+} else if (b < a && b < c) {
+    alert("El número 2 es el menor");
+} else if (c < a && c < b) {
+    alert("El número 3 es el menor");
+} else {
+    alert("LOS NÚMEROS SON IGUALES, PARDAL");
+}
+}
+*/
+
+/*
+function SacalMenor(matriz) {
+    alert(matriz);
+    }
+*/
+
 
