@@ -59,7 +59,6 @@ function Get3Minor(a, b, c) {
 }
 */
 
-
 /*
 function GetIndexMinor(a, b, c) {
     if (a < b && a < c) {
