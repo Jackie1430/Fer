@@ -1,31 +1,39 @@
 
 /*
+Variables:
 var num1 = parseInt(prompt("Dime el primer número"));
 var num2 = parseInt(prompt("Dime el segundo número"));
 var num3 = parseInt(prompt("Dime el tercer número"));
 */
-
-
-
-//menor(num1, num2);
-//SacalMenor(num1, num2, num3);
+/*
+LLamadas a Funciones:
+GetMinor(num1, num2);
+Get3Minor(num1, num2, num3);
+GetIndexMinor(num1, num2, num3);
+xTamaño(array);
+*/
 
 var array = [1, 2, 3];
+var i = 0;
+var segundaI = 0; 
 
-xTamaño(array);
+//While----------------------------------------------------------------------------------------------------------------------------------
 
-function xTamaño(matriz) {
-    if ( matriz.length == 3) {
-    alert(matriz);
-    array.forEach( function Iterador(elemento, indice) {
-        alert("el índice de " + elemento + " es el " + indice);
-    })
-}
+while (i < array.length) {
+    alert("El elemento: " + array[i] + ", tiene como índice: " + i)
+    i ++;
 }
 
-//GetMinor(num1, num2);
-//Get3Minor(num1, num2, num3);
-//GetIndexMinor(num1, num2, num3);
+//Do While ------------------------------------------------------------------------------------------------------------------------------
+
+do {
+    alert("El índice es el: " + segundaI + "\n" +  "El elemento es el: " + array[segundaI]);
+    segundaI += 1;
+}
+while (segundaI < array.length);
+
+
+
 
 /*
 function GetMinor(a, b) {
@@ -65,39 +73,13 @@ function GetIndexMinor(a, b, c) {
     }
 }
 */
-
 /*
-function menor(a, b) {
-if (a < b) {
-    alert("El menor es" + a);
-} else if (b < a) {
-    alert("El menor es " + b);
-} else {
-    alert("LOS NÚMEROS SON IGUALES, PARDAL");
-}
-}
-*/
-
-
-/*
-function SacalMenor(array) {
-var array = [1, 2, 3];
-if (a < b && a < c) {
-    alert("El número 1 es el menor");
-} else if (b < a && b < c) {
-    alert("El número 2 es el menor");
-} else if (c < a && c < b) {
-    alert("El número 3 es el menor");
-} else {
-    alert("LOS NÚMEROS SON IGUALES, PARDAL");
-}
-}
-*/
-
-/*
-function SacalMenor(matriz) {
+function xTamaño(matriz) {
+    if ( matriz.length == 3) {
     alert(matriz);
-    }
+    array.forEach( function Iterador(elemento, indice) {
+        alert("el índice de " + elemento + " es el " + indice);
+    })
+}
+}
 */
-
-
