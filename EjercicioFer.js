@@ -1,4 +1,4 @@
-
+alert("Hey, estoy aprendiendo a utilizar GitHub");
 /*
 Variables:
 var num1 = parseInt(prompt("Dime el primer número"));
