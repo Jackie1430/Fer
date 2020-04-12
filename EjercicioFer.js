@@ -1,5 +1,5 @@
 alert("Hey, estoy aprendiendo a utilizar GitHub");
-alert("HEy, sigo aquí, aprendiendo a utilizar GitHub");
+alert("Hey, sigo aquí, aprendiendo a utilizar GitHub");
 alert("Oye, que esto no para");
 /*
 Variables:
