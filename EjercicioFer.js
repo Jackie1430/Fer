@@ -1,5 +1,4 @@
 //Estoy empezando a utilizar GitKraken y por eso pongo este comentario.
-
 alert("Hey, estoy aprendiendo a utilizar GitHub");
 alert("Hey, sigo aquí, aprendiendo a utilizar GitHub");
 alert("Oye, que esto no para");
